@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.bravepipeproject",
+    "module": "BravePipeExtractor",
+    "version": "v0.24.8-2.3.3-test2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bravepipeproject",
+          "module": "extractor",
+          "version": {
+            "requires": "v0.24.8-2.3.3-test2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BravePipeExtractor-v0.24.8-2.3.3-test2.jar",
+          "url": "BravePipeExtractor-v0.24.8-2.3.3-test2.jar",
+          "size": 261,
+          "sha512": "e084bef60994367f8156a1065720366ebfcef6fe2a6d4ca502cdc1e13c14c97248c3bcd158498abcf43e2de42b8bd4aa6657b78145c3e1b1242f82dd1066f45e",
+          "sha256": "7673e34eb96341b97f861fa2cbff86fd518a9ae15e4015d82a61e5001ab1df37",
+          "sha1": "1a18570b91c0440c381c079aa6d383f3e24b290f",
+          "md5": "2558ab5692536e152c6e40f46052c427"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bravepipeproject",
+          "module": "timeago-parser",
+          "version": {
+            "requires": "v0.24.8-2.3.3-test2"
+          }
+        },
+        {
+          "group": "com.github.bravepipeproject",
+          "module": "extractor",
+          "version": {
+            "requires": "v0.24.8-2.3.3-test2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BravePipeExtractor-v0.24.8-2.3.3-test2.jar",
+          "url": "BravePipeExtractor-v0.24.8-2.3.3-test2.jar",
+          "size": 261,
+          "sha512": "e084bef60994367f8156a1065720366ebfcef6fe2a6d4ca502cdc1e13c14c97248c3bcd158498abcf43e2de42b8bd4aa6657b78145c3e1b1242f82dd1066f45e",
+          "sha256": "7673e34eb96341b97f861fa2cbff86fd518a9ae15e4015d82a61e5001ab1df37",
+          "sha1": "1a18570b91c0440c381c079aa6d383f3e24b290f",
+          "md5": "2558ab5692536e152c6e40f46052c427"
+        }
+      ]
+    }
+  ]
+}
