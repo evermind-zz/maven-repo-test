@@ -3,8 +3,8 @@
   <groupId>com.github.bravepipeproject</groupId>
   <artifactId>BravePipeExtractor</artifactId>
   <versioning>
-    <latest>v0.24.8-2.3.3-test7</latest>
-    <release>v0.24.8-2.3.3-test7</release>
+    <latest>v0.24.8-2.3.3-test8</latest>
+    <release>v0.24.8-2.3.3-test8</release>
     <versions>
       <version>v0.24.6-2.2.8</version>
       <version>v0.24.8-2.2.8</version>
@@ -19,7 +19,8 @@
       <version>v0.24.8-2.3.3-test5</version>
       <version>v0.24.8-2.3.3-test6</version>
       <version>v0.24.8-2.3.3-test7</version>
+      <version>v0.24.8-2.3.3-test8</version>
     </versions>
-    <lastUpdated>20250905221831</lastUpdated>
+    <lastUpdated>20250905222050</lastUpdated>
   </versioning>
 </metadata>

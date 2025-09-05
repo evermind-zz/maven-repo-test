@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.bravepipeproject",
+    "module": "timeago-generator",
+    "version": "v0.24.8-2.3.3-test8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "timeago-generator-v0.24.8-2.3.3-test8.jar",
+          "url": "timeago-generator-v0.24.8-2.3.3-test8.jar",
+          "size": 13140,
+          "sha512": "665fdc9b7da5a41ba25bbf698cb8e8a860705c77ef56f06c45a6bcdbe937cb1d8c4dd95cdbf0c89cd38c0f370c5919cdcc479091457f1ebbbb502eb283d3bf1e",
+          "sha256": "aed04cb059568c4457c6ee7acdf5518a4ae8957afb7e4da3f055c1f52c9e9997",
+          "sha1": "68b1b9025f11efbd90032b54df43677215d9371d",
+          "md5": "580347557a7989ffdf2c9d245919602b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.TeamNewPipe",
+          "module": "nanojson",
+          "version": {
+            "requires": "e9d656ddb49a412a5a0a5d5ef20ca7ef09549996"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.github.bravepipeproject",
+          "module": "timeago-parser",
+          "version": {
+            "requires": "v0.24.8-2.3.3-test8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "timeago-generator-v0.24.8-2.3.3-test8.jar",
+          "url": "timeago-generator-v0.24.8-2.3.3-test8.jar",
+          "size": 13140,
+          "sha512": "665fdc9b7da5a41ba25bbf698cb8e8a860705c77ef56f06c45a6bcdbe937cb1d8c4dd95cdbf0c89cd38c0f370c5919cdcc479091457f1ebbbb502eb283d3bf1e",
+          "sha256": "aed04cb059568c4457c6ee7acdf5518a4ae8957afb7e4da3f055c1f52c9e9997",
+          "sha1": "68b1b9025f11efbd90032b54df43677215d9371d",
+          "md5": "580347557a7989ffdf2c9d245919602b"
+        }
+      ]
+    }
+  ]
+}
