@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.bravepipeproject",
+    "module": "timeago-parser",
+    "version": "v0.24.8-2.3.3-test",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "timeago-parser-v0.24.8-2.3.3-test.jar",
+          "url": "timeago-parser-v0.24.8-2.3.3-test.jar",
+          "size": 80780,
+          "sha512": "c09bae97130dbee38f53f526bd53583974fea2a3244f6ea96b1b80a044c0c05c1a9eb201c7b3e672f0dce140b29e31505aec86aa645d2364121396c8e36b6950",
+          "sha256": "6fd4af176e07d55e96473de284cde257db0c64cf50697acaa313c23f52e98a98",
+          "sha1": "3b38a578f82bc1b1bb45ab054f9ffe0e5b743b3d",
+          "md5": "20d591e53fd4c4fc302615dfc25951af"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "timeago-parser-v0.24.8-2.3.3-test.jar",
+          "url": "timeago-parser-v0.24.8-2.3.3-test.jar",
+          "size": 80780,
+          "sha512": "c09bae97130dbee38f53f526bd53583974fea2a3244f6ea96b1b80a044c0c05c1a9eb201c7b3e672f0dce140b29e31505aec86aa645d2364121396c8e36b6950",
+          "sha256": "6fd4af176e07d55e96473de284cde257db0c64cf50697acaa313c23f52e98a98",
+          "sha1": "3b38a578f82bc1b1bb45ab054f9ffe0e5b743b3d",
+          "md5": "20d591e53fd4c4fc302615dfc25951af"
+        }
+      ]
+    }
+  ]
+}

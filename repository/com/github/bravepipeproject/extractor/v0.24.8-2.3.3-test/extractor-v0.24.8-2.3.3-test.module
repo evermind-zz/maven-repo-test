@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.bravepipeproject",
+    "module": "extractor",
+    "version": "v0.24.8-2.3.3-test",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "4.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "extractor-v0.24.8-2.3.3-test.jar",
+          "url": "extractor-v0.24.8-2.3.3-test.jar",
+          "size": 972398,
+          "sha512": "cd33f60d712273f76c6e8cb13f7148e206b476204bf6068a0467a3a544c588c62534e5dad547fd928205e647dac994fd6de3f91192b643519afd9f3554a9db13",
+          "sha256": "24f35ac71710936f56150435f753de415ffe605001c98d31d148c42e2f5ecb61",
+          "sha1": "75e24d62c4d60e839aa555f2c8346b2412a89ffd",
+          "md5": "4d9e2f59a02363b65e01b9e442612e6f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bravepipeproject",
+          "module": "timeago-parser",
+          "version": {
+            "requires": "v0.24.8-2.3.3-test"
+          }
+        },
+        {
+          "group": "com.github.TeamNewPipe",
+          "module": "nanojson",
+          "version": {
+            "requires": "e9d656ddb49a412a5a0a5d5ef20ca7ef09549996"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.21.1"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "4.31.1"
+          }
+        },
+        {
+          "group": "org.mozilla",
+          "module": "rhino",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.mozilla",
+          "module": "rhino-engine",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.github.evermind-zz",
+          "module": "hlsdownloader",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "4.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "extractor-v0.24.8-2.3.3-test.jar",
+          "url": "extractor-v0.24.8-2.3.3-test.jar",
+          "size": 972398,
+          "sha512": "cd33f60d712273f76c6e8cb13f7148e206b476204bf6068a0467a3a544c588c62534e5dad547fd928205e647dac994fd6de3f91192b643519afd9f3554a9db13",
+          "sha256": "24f35ac71710936f56150435f753de415ffe605001c98d31d148c42e2f5ecb61",
+          "sha1": "75e24d62c4d60e839aa555f2c8346b2412a89ffd",
+          "md5": "4d9e2f59a02363b65e01b9e442612e6f"
+        }
+      ]
+    }
+  ]
+}
